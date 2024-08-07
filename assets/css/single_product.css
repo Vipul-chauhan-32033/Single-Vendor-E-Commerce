@@ -1,0 +1,108 @@
+.section-p1 {
+  padding: 40px 30px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+#pdetails {
+  display: flex;
+  margin-top: 30px;
+}
+
+#pdetails .single-pimg {
+  width: 40%;
+  margin-right: 50px;
+}
+
+#Mainimg {
+  height: 75vh;
+}
+
+.small-img-group {
+  display: flex;
+  padding-top: 22px;
+
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+.small-img {
+  height: 20vh;
+}
+
+#pdetails .single-pdetails {
+  width: 50%;
+  padding-top: 30px;
+}
+
+#pdetails .single-pdetails h4 {
+  padding: 40px 0 20px 0;
+}
+
+#pdetails .single-pdetails h2 {
+  font-size: 26px;
+}
+
+#pdetails .single-pdetails select {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  width: 140px;
+}
+
+#pdetails .single-pdetails input {
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#pdetails .single-pdetails input:focus {
+  outline: none;
+}
+
+#pdetails .single-pdetails button {
+  background: #088178;
+  color: #fff;
+}
+
+#pdetails .single-pdetails span {
+  line-height: 25px;
+}
+
+/* //Media Query */
+@media (max-width: 720px) {
+  #pdetails {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #pdetails .single-pimg {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  #pdetails .single-pdetails {
+    width: 100%;
+  }
+}
